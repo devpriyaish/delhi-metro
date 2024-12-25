@@ -1,0 +1,15 @@
+/* About Page Styling */
+
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0; /* Remove any default margin */
+  overflow: hidden; /* Remove scrollbars */
+}
+
+.about-image {
+  width: 145%; /* Use full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: -170px; /* Small margin to adjust positioning */
+  margin-left: -280px;
+}
+

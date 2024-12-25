@@ -1,0 +1,21 @@
+/* Styling for header */
+.header {
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  padding: 0.1px; /* Equivalent to p-4 */
+}
+
+/* Styling for main content */
+.main-content {
+  padding: 16px; /* Equivalent to p-4 */
+  margin-bottom: 24px; /* Equivalent to mb-6 */
+}
+
+/* Styling for footer */
+.footer {
+  background-color: #2d3748; /* gray-800 */
+  color: white;
+  text-align: center;
+  padding: 8px; /* Equivalent to p-2 */
+}
+
