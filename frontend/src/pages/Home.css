@@ -1,0 +1,48 @@
+/* Centering the Select components and button container */
+.fare-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px; /* Adjust the width as needed */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px;
+  gap: 20px; /* Space between elements */
+}
+
+/* To control the width of the Select dropdowns */
+.select-dropdown {
+  width: 100%; /* Makes Select take full width of its parent container */
+  max-width: 400px; /* Limits the width, adjust as needed */
+}
+
+/* Optional: Styling the button */
+.calculate-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+}
+
+.calculate-button:hover {
+  border-color: #646cff;
+}
+
+.calculate-button:focus,
+.calculate-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.select-dropdown .react-select__menu-list {
+  background-color: white; /* Ensure the background of the options is white */
+}
+
+.select-dropdown .react-select__option:hover {
+  background-color: lightgrey; /* Changes the hover color of dropdown options */
+}
