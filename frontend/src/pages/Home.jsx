@@ -3,6 +3,7 @@ import Select from "react-select";
 import Layout from "../components/Layout";
 import "./Home.css";
 import options from "../assets/data/stations.json";
+import axios from 'axios'; // Import axios
 
 const generateLabelWithDots = (lines) => {
   const colorMap = {
@@ -26,10 +27,25 @@ const generateLabelWithDots = (lines) => {
 function Home() {
   const [source, setSource] = useState(null);
   const [destination, setDestination] = useState(null);
+  const [fare, setFare] = useState(null);
 
-  const handleCalculateFare = () => {
+  const handleCalculateFare = async () => {
     if (source && destination) {
-      alert(`Calculating fare from ${source.label} to ${destination.label}`);
+      try {
+        // Make API call to the backend to calculate the fare
+        const response = await axios.post('http://localhost:8000/api/shortest-path', {
+          source: source.value,
+          destination: destination.value,
+        });
+
+        // Assuming the API returns a fare value, set it to the state
+        setFare(response.data.fare);
+        
+        alert(`Fare from ${source.value} to ${destination.value} is ${response.data.fare}`);
+      } catch (error) {
+        console.error('Error fetching fare data:', error);
+        alert('There was an error calculating the fare. Please try again.');
+      }
     } else {
       alert("Please select both source and destination.");
     }
