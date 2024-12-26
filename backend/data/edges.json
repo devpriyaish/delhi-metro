@@ -1,0 +1,1282 @@
+[
+  {
+    "from_node": "SHAHEED STHAL (NEW BUS ADDA)",
+    "to_node": "HINDON RIVER",
+    "cost": 1.23
+  },
+  {
+    "from_node": "HINDON RIVER",
+    "to_node": "ARTHALA",
+    "cost": 1.23
+  },
+  {
+    "from_node": "ARTHALA",
+    "to_node": "MOHAN NAGAR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "MOHAN NAGAR",
+    "to_node": "SHYAM PARK",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SHYAM PARK",
+    "to_node": "MAJOR MOHIT SHARMA RAJENDRA NAGAR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "MAJOR MOHIT SHARMA RAJENDRA NAGAR",
+    "to_node": "RAJ BAGH",
+    "cost": 1.23
+  },
+  {
+    "from_node": "RAJ BAGH",
+    "to_node": "SHAHEED NAGAR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SHAHEED NAGAR",
+    "to_node": "DILSHAD GARDEN",
+    "cost": 1.23
+  },
+  {
+    "from_node": "DILSHAD GARDEN",
+    "to_node": "JHILMIL",
+    "cost": 1.23
+  },
+  {
+    "from_node": "JHILMIL",
+    "to_node": "MANSAROVAR PARK",
+    "cost": 1.23
+  },
+  {
+    "from_node": "MANSAROVAR PARK",
+    "to_node": "SHAHDARA",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SHAHDARA",
+    "to_node": "WELCOME",
+    "cost": 1.23
+  },
+  {
+    "from_node": "WELCOME",
+    "to_node": "SEELAMPUR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SEELAMPUR",
+    "to_node": "SHASTRI PARK",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SHASTRI PARK",
+    "to_node": "KASHMERE GATE",
+    "cost": 1.23
+  },
+  {
+    "from_node": "KASHMERE GATE",
+    "to_node": "TIS HAZARI",
+    "cost": 1.23
+  },
+  {
+    "from_node": "TIS HAZARI",
+    "to_node": "PULBANGASH",
+    "cost": 1.23
+  },
+  {
+    "from_node": "PULBANGASH",
+    "to_node": "PRATAP NAGAR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "PRATAP NAGAR",
+    "to_node": "SHASTRI NAGAR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SHASTRI NAGAR",
+    "to_node": "INDERLOK",
+    "cost": 1.23
+  },
+  {
+    "from_node": "INDERLOK",
+    "to_node": "KANHAIYA NAGAR",
+    "cost": 1.23
+  },
+  {
+    "from_node": "KANHAIYA NAGAR",
+    "to_node": "KESHAV PURAM",
+    "cost": 1.23
+  },
+  {
+    "from_node": "KESHAV PURAM",
+    "to_node": "NETAJI SUBHASH PLACE",
+    "cost": 1.23
+  },
+  {
+    "from_node": "NETAJI SUBHASH PLACE",
+    "to_node": "KOHAT ENCLAVE",
+    "cost": 1.23
+  },
+  {
+    "from_node": "KOHAT ENCLAVE",
+    "to_node": "PITAMPURA",
+    "cost": 1.23
+  },
+  {
+    "from_node": "PITAMPURA",
+    "to_node": "ROHINI EAST",
+    "cost": 1.23
+  },
+  {
+    "from_node": "ROHINI EAST",
+    "to_node": "ROHINI WEST",
+    "cost": 1.23
+  },
+  {
+    "from_node": "ROHINI WEST",
+    "to_node": "RITHALA",
+    "cost": 1.23
+  },
+  {
+    "from_node": "SAMAYPUR BADLI",
+    "to_node": "ROHINI SECTOR - 18",
+    "cost": 192.5
+  },
+  {
+    "from_node": "ROHINI SECTOR - 18",
+    "to_node": "HAIDERPUR BADLI MOR",
+    "cost": 3.1
+  },
+  {
+    "from_node": "HAIDERPUR BADLI MOR",
+    "to_node": "JAHANGIRPURI",
+    "cost": 1.8
+  },
+  {
+    "from_node": "JAHANGIRPURI",
+    "to_node": "ADARSH NAGAR",
+    "cost": 2.2
+  },
+  {
+    "from_node": "ADARSH NAGAR",
+    "to_node": "AZADPUR",
+    "cost": 1.7
+  },
+  {
+    "from_node": "AZADPUR",
+    "to_node": "MODEL TOWN",
+    "cost": 1.6
+  },
+  {
+    "from_node": "MODEL TOWN",
+    "to_node": "GURU TEG BAHADUR NAGAR",
+    "cost": 2
+  },
+  {
+    "from_node": "GURU TEG BAHADUR NAGAR",
+    "to_node": "VISHWAVIDYALAYA",
+    "cost": 2.3
+  },
+  {
+    "from_node": "VISHWAVIDYALAYA",
+    "to_node": "VIDHAN SABHA",
+    "cost": 2.5
+  },
+  {
+    "from_node": "VIDHAN SABHA",
+    "to_node": "CIVIL LINES",
+    "cost": 1.2
+  },
+  {
+    "from_node": "CIVIL LINES",
+    "to_node": "KASHMERE GATE",
+    "cost": 1.4
+  },
+  {
+    "from_node": "KASHMERE GATE",
+    "to_node": "CHANDNI CHOWK",
+    "cost": 2
+  },
+  {
+    "from_node": "CHANDNI CHOWK",
+    "to_node": "CHAWRI BAZAR",
+    "cost": 0.9
+  },
+  {
+    "from_node": "CHAWRI BAZAR",
+    "to_node": "NEW DELHI (Yellow & Airport Line)",
+    "cost": 2.1
+  },
+  {
+    "from_node": "NEW DELHI (Yellow & Airport Line)",
+    "to_node": "RAJIV CHOWK",
+    "cost": 1.3
+  },
+  {
+    "from_node": "RAJIV CHOWK",
+    "to_node": "PATEL CHOWK",
+    "cost": 1.1
+  },
+  {
+    "from_node": "PATEL CHOWK",
+    "to_node": "CENTRAL SECRETARIAT",
+    "cost": 1
+  },
+  {
+    "from_node": "CENTRAL SECRETARIAT",
+    "to_node": "UDYOG BHAWAN",
+    "cost": 1.2
+  },
+  {
+    "from_node": "UDYOG BHAWAN",
+    "to_node": "LOK KALYAN MARG",
+    "cost": 1.5
+  },
+  {
+    "from_node": "LOK KALYAN MARG",
+    "to_node": "JOR BAGH",
+    "cost": 1.7
+  },
+  {
+    "from_node": "JOR BAGH",
+    "to_node": "DILLI HAAT - INA",
+    "cost": 1.9
+  },
+  {
+    "from_node": "DILLI HAAT - INA",
+    "to_node": "AIIMS",
+    "cost": 2.3
+  },
+  {
+    "from_node": "AIIMS",
+    "to_node": "GREEN PARK",
+    "cost": 1
+  },
+  {
+    "from_node": "GREEN PARK",
+    "to_node": "HAUZ KHAS",
+    "cost": 2.1
+  },
+  {
+    "from_node": "HAUZ KHAS",
+    "to_node": "MALVIYA NAGAR",
+    "cost": 2.5
+  },
+  {
+    "from_node": "MALVIYA NAGAR",
+    "to_node": "SAKET",
+    "cost": 3.2
+  },
+  {
+    "from_node": "SAKET",
+    "to_node": "QUTAB MINAR",
+    "cost": 3
+  },
+  {
+    "from_node": "QUTAB MINAR",
+    "to_node": "CHHATARPUR",
+    "cost": 3.4
+  },
+  {
+    "from_node": "CHHATARPUR",
+    "to_node": "SULTANPUR",
+    "cost": 2.8
+  },
+  {
+    "from_node": "SULTANPUR",
+    "to_node": "GHITORNI",
+    "cost": 2
+  },
+  {
+    "from_node": "GHITORNI",
+    "to_node": "ARJAN GARH",
+    "cost": 2.3
+  },
+  {
+    "from_node": "ARJAN GARH",
+    "to_node": "GURU DRONACHARYA",
+    "cost": 3
+  },
+  {
+    "from_node": "GURU DRONACHARYA",
+    "to_node": "SIKANDERPUR",
+    "cost": 1.5
+  },
+  {
+    "from_node": "SIKANDERPUR",
+    "to_node": "M.G. ROAD",
+    "cost": 2.1
+  },
+  {
+    "from_node": "M.G. ROAD",
+    "to_node": "IFFCO CHOWK",
+    "cost": 2.3
+  },
+  {
+    "from_node": "IFFCO CHOWK",
+    "to_node": "MILLENNIUM CITY CENTRE GURUGRAM",
+    "cost": 4.2
+  },
+  {
+    "from_node": "YAMUNA BANK",
+    "to_node": "LAXMI NAGAR",
+    "cost": 1
+  },
+  {
+    "from_node": "LAXMI NAGAR",
+    "to_node": "NIRMAN VIHAR",
+    "cost": 1.1
+  },
+  {
+    "from_node": "NIRMAN VIHAR",
+    "to_node": "PREET VIHAR",
+    "cost": 1
+  },
+  {
+    "from_node": "PREET VIHAR",
+    "to_node": "KARKARDUMA",
+    "cost": 1.1
+  },
+  {
+    "from_node": "KARKARDUMA",
+    "to_node": "ANAND VIHAR ISBT",
+    "cost": 1
+  },
+  {
+    "from_node": "ANAND VIHAR ISBT",
+    "to_node": "KAUSHAMBI",
+    "cost": 1
+  },
+  {
+    "from_node": "KAUSHAMBI",
+    "to_node": "VAISHALI",
+    "cost": 1
+  },
+  {
+    "from_node": "KIRTI NAGAR",
+    "to_node": "SATGURU RAM SINGH MARG",
+    "cost": 1.2
+  },
+  {
+    "from_node": "SATGURU RAM SINGH MARG",
+    "to_node": "INDERLOK",
+    "cost": 1.1
+  },
+  {
+    "from_node": "INDERLOK",
+    "to_node": "ASHOK PARK MAIN",
+    "cost": 1
+  },
+  {
+    "from_node": "ASHOK PARK MAIN",
+    "to_node": "PUNJABI BAGH",
+    "cost": 1.2
+  },
+  {
+    "from_node": "PUNJABI BAGH",
+    "to_node": "PUNJABI BAGH WEST",
+    "cost": 0.8
+  },
+  {
+    "from_node": "PUNJABI BAGH WEST",
+    "to_node": "SHIVAJI PARK",
+    "cost": 1
+  },
+  {
+    "from_node": "SHIVAJI PARK",
+    "to_node": "MADIPUR",
+    "cost": 1
+  },
+  {
+    "from_node": "MADIPUR",
+    "to_node": "PASCHIM VIHAR EAST",
+    "cost": 1.5
+  },
+  {
+    "from_node": "PASCHIM VIHAR EAST",
+    "to_node": "PASCHIM VIHAR WEST",
+    "cost": 1.3
+  },
+  {
+    "from_node": "PASCHIM VIHAR WEST",
+    "to_node": "PEERAGARHI",
+    "cost": 1
+  },
+  {
+    "from_node": "PEERAGARHI",
+    "to_node": "UDYOG NAGAR",
+    "cost": 1
+  },
+  {
+    "from_node": "UDYOG NAGAR",
+    "to_node": "MAHARAJA SURAJMAL STADIUM",
+    "cost": 1.1
+  },
+  {
+    "from_node": "MAHARAJA SURAJMAL STADIUM",
+    "to_node": "NANGLOI",
+    "cost": 1
+  },
+  {
+    "from_node": "NANGLOI",
+    "to_node": "NANGLOI RAILWAY STATION",
+    "cost": 0.9
+  },
+  {
+    "from_node": "NANGLOI RAILWAY STATION",
+    "to_node": "RAJDHANI PARK",
+    "cost": 0.8
+  },
+  {
+    "from_node": "RAJDHANI PARK",
+    "to_node": "MUNDKA",
+    "cost": 1.2
+  },
+  {
+    "from_node": "MUNDKA",
+    "to_node": "MUNDKA INDUSTRIAL AREA (MIA)",
+    "cost": 1
+  },
+  {
+    "from_node": "MUNDKA INDUSTRIAL AREA (MIA)",
+    "to_node": "GHEVRA METRO STATION",
+    "cost": 1.3
+  },
+  {
+    "from_node": "GHEVRA METRO STATION",
+    "to_node": "TIKRI KALAN",
+    "cost": 1.1
+  },
+  {
+    "from_node": "TIKRI KALAN",
+    "to_node": "TIKRI BORDER",
+    "cost": 1.2
+  },
+  {
+    "from_node": "TIKRI BORDER",
+    "to_node": "PANDIT SHREE RAM SHARMA",
+    "cost": 1
+  },
+  {
+    "from_node": "PANDIT SHREE RAM SHARMA",
+    "to_node": "BAHADURGARH CITY",
+    "cost": 1.2
+  },
+  {
+    "from_node": "BAHADURGARH CITY",
+    "to_node": "BRIG. HOSHIAR SINGH",
+    "cost": 1
+  },
+  {
+    "from_node": "KASHMERE GATE",
+    "to_node": "LAL QUILA",
+    "cost": 1.5
+  },
+  {
+    "from_node": "LAL QUILA",
+    "to_node": "JAMA MASJID",
+    "cost": 1
+  },
+  {
+    "from_node": "JAMA MASJID",
+    "to_node": "DELHI GATE",
+    "cost": 1.2
+  },
+  {
+    "from_node": "DELHI GATE",
+    "to_node": "ITO",
+    "cost": 1
+  },
+  {
+    "from_node": "ITO",
+    "to_node": "MANDI HOUSE",
+    "cost": 1
+  },
+  {
+    "from_node": "MANDI HOUSE",
+    "to_node": "JANPATH",
+    "cost": 0.8
+  },
+  {
+    "from_node": "JANPATH",
+    "to_node": "CENTRAL SECRETARIAT",
+    "cost": 1
+  },
+  {
+    "from_node": "CENTRAL SECRETARIAT",
+    "to_node": "KHAN MARKET",
+    "cost": 1.2
+  },
+  {
+    "from_node": "KHAN MARKET",
+    "to_node": "JLN STADIUM",
+    "cost": 1.5
+  },
+  {
+    "from_node": "JLN STADIUM",
+    "to_node": "JANGPURA",
+    "cost": 1.3
+  },
+  {
+    "from_node": "JANGPURA",
+    "to_node": "LAJPAT NAGAR",
+    "cost": 1
+  },
+  {
+    "from_node": "LAJPAT NAGAR",
+    "to_node": "MOOLCHAND",
+    "cost": 1.2
+  },
+  {
+    "from_node": "MOOLCHAND",
+    "to_node": "KAILASH COLONY",
+    "cost": 1.1
+  },
+  {
+    "from_node": "KAILASH COLONY",
+    "to_node": "NEHRU PLACE",
+    "cost": 1.5
+  },
+  {
+    "from_node": "NEHRU PLACE",
+    "to_node": "KALKAJI MANDIR",
+    "cost": 1.2
+  },
+  {
+    "from_node": "KALKAJI MANDIR",
+    "to_node": "GOVIND PURI",
+    "cost": 1.3
+  },
+  {
+    "from_node": "GOVIND PURI",
+    "to_node": "HARKESH NAGAR OKHLA",
+    "cost": 1.4
+  },
+  {
+    "from_node": "HARKESH NAGAR OKHLA",
+    "to_node": "JASOLA-APOLLO",
+    "cost": 1.7
+  },
+  {
+    "from_node": "JASOLA-APOLLO",
+    "to_node": "SARITA VIHAR",
+    "cost": 1.8
+  },
+  {
+    "from_node": "SARITA VIHAR",
+    "to_node": "MOHAN ESTATE",
+    "cost": 1.5
+  },
+  {
+    "from_node": "MOHAN ESTATE",
+    "to_node": "TUGHLAKABAD STATION",
+    "cost": 2
+  },
+  {
+    "from_node": "TUGHLAKABAD STATION",
+    "to_node": "BADARPUR BORDER",
+    "cost": 2.2
+  },
+  {
+    "from_node": "BADARPUR BORDER",
+    "to_node": "SARAI",
+    "cost": 1
+  },
+  {
+    "from_node": "SARAI",
+    "to_node": "NHPC CHOWK",
+    "cost": 1.5
+  },
+  {
+    "from_node": "NHPC CHOWK",
+    "to_node": "MEWALA MAHARAJPUR",
+    "cost": 1.7
+  },
+  {
+    "from_node": "MEWALA MAHARAJPUR",
+    "to_node": "SECTOR-28",
+    "cost": 1.3
+  },
+  {
+    "from_node": "SECTOR-28",
+    "to_node": "BADKAL MOR",
+    "cost": 1.8
+  },
+  {
+    "from_node": "BADKAL MOR",
+    "to_node": "OLD FARIDABAD",
+    "cost": 2
+  },
+  {
+    "from_node": "OLD FARIDABAD",
+    "to_node": "NEELAM CHOWK AJRONDA",
+    "cost": 1.6
+  },
+  {
+    "from_node": "NEELAM CHOWK AJRONDA",
+    "to_node": "BATA CHOWK",
+    "cost": 1.2
+  },
+  {
+    "from_node": "BATA CHOWK",
+    "to_node": "ESCORTS MUJESAR",
+    "cost": 1.4
+  },
+  {
+    "from_node": "ESCORTS MUJESAR",
+    "to_node": "SANT SURDAS (SIHI)",
+    "cost": 1.6
+  },
+  {
+    "from_node": "SANT SURDAS (SIHI)",
+    "to_node": "RAJA NAHAR SINGH (BALLABHGARH)",
+    "cost": 2.2
+  },
+  {
+    "from_node": "MAJLIS PARK",
+    "to_node": "AZADPUR",
+    "cost": 4.25
+  },
+  {
+    "from_node": "AZADPUR",
+    "to_node": "SHALIMAR BAGH",
+    "cost": 2.68
+  },
+  {
+    "from_node": "SHALIMAR BAGH",
+    "to_node": "NETAJI SUBHASH PLACE",
+    "cost": 2.78
+  },
+  {
+    "from_node": "NETAJI SUBHASH PLACE",
+    "to_node": "SHAKURPUR",
+    "cost": 2.14
+  },
+  {
+    "from_node": "SHAKURPUR",
+    "to_node": "PUNJABI BAGH WEST",
+    "cost": 1.91
+  },
+  {
+    "from_node": "PUNJABI BAGH WEST",
+    "to_node": "ESI-BASAIDARAPUR",
+    "cost": 2.51
+  },
+  {
+    "from_node": "ESI-BASAIDARAPUR",
+    "to_node": "RAJOURI GARDEN",
+    "cost": 1.58
+  },
+  {
+    "from_node": "RAJOURI GARDEN",
+    "to_node": "MAYAPURI",
+    "cost": 1.98
+  },
+  {
+    "from_node": "MAYAPURI",
+    "to_node": "NARAINA VIHAR",
+    "cost": 2.55
+  },
+  {
+    "from_node": "NARAINA VIHAR",
+    "to_node": "DELHI CANTT.",
+    "cost": 2.48
+  },
+  {
+    "from_node": "DELHI CANTT.",
+    "to_node": "DURGABAI DESHMUKH SOUTH CAMPUS",
+    "cost": 3.15
+  },
+  {
+    "from_node": "DURGABAI DESHMUKH SOUTH CAMPUS",
+    "to_node": "SIR M. VISHWESHWARAIAH MOTI BAGH",
+    "cost": 3.02
+  },
+  {
+    "from_node": "SIR M. VISHWESHWARAIAH MOTI BAGH",
+    "to_node": "BHIKAJI CAMA PLACE",
+    "cost": 2.34
+  },
+  {
+    "from_node": "BHIKAJI CAMA PLACE",
+    "to_node": "SAROJINI NAGAR",
+    "cost": 1.84
+  },
+  {
+    "from_node": "SAROJINI NAGAR",
+    "to_node": "DILLI HAAT - INA",
+    "cost": 2.56
+  },
+  {
+    "from_node": "DILLI HAAT - INA",
+    "to_node": "SOUTH EXTENSION",
+    "cost": 1.32
+  },
+  {
+    "from_node": "SOUTH EXTENSION",
+    "to_node": "LAJPAT NAGAR",
+    "cost": 2.06
+  },
+  {
+    "from_node": "LAJPAT NAGAR",
+    "to_node": "VINOBAPURI",
+    "cost": 1.55
+  },
+  {
+    "from_node": "VINOBAPURI",
+    "to_node": "ASHRAM",
+    "cost": 1.24
+  },
+  {
+    "from_node": "ASHRAM",
+    "to_node": "SARAI KALE KHAN - NIZAMUDDIN",
+    "cost": 2.57
+  },
+  {
+    "from_node": "SARAI KALE KHAN - NIZAMUDDIN",
+    "to_node": "MAYUR VIHAR -I",
+    "cost": 2.35
+  },
+  {
+    "from_node": "MAYUR VIHAR -I",
+    "to_node": "MAYUR VIHAR POCKET-1",
+    "cost": 1.27
+  },
+  {
+    "from_node": "MAYUR VIHAR POCKET-1",
+    "to_node": "TRILOKPURI-SANJAY LAKE",
+    "cost": 1.46
+  },
+  {
+    "from_node": "TRILOKPURI-SANJAY LAKE",
+    "to_node": "EAST VINOD NAGAR-MAYUR VIHAR -II",
+    "cost": 2.24
+  },
+  {
+    "from_node": "EAST VINOD NAGAR-MAYUR VIHAR -II",
+    "to_node": "MANDAWALI - WEST VINOD NAGAR",
+    "cost": 3.11
+  },
+  {
+    "from_node": "MANDAWALI - WEST VINOD NAGAR",
+    "to_node": "I.P. EXTENSION",
+    "cost": 2.16
+  },
+  {
+    "from_node": "I.P. EXTENSION",
+    "to_node": "ANAND VIHAR ISBT",
+    "cost": 3.28
+  },
+  {
+    "from_node": "ANAND VIHAR ISBT",
+    "to_node": "KARKARDUMA",
+    "cost": 3.09
+  },
+  {
+    "from_node": "KARKARDUMA",
+    "to_node": "KARKARDUMA COURT",
+    "cost": 2.56
+  },
+  {
+    "from_node": "KARKARDUMA COURT",
+    "to_node": "KRISHNA NAGAR",
+    "cost": 2.51
+  },
+  {
+    "from_node": "KRISHNA NAGAR",
+    "to_node": "EAST AZAD NAGAR",
+    "cost": 2.72
+  },
+  {
+    "from_node": "EAST AZAD NAGAR",
+    "to_node": "WELCOME",
+    "cost": 1.72
+  },
+  {
+    "from_node": "WELCOME",
+    "to_node": "JAFRABAD",
+    "cost": 2.02
+  },
+  {
+    "from_node": "JAFRABAD",
+    "to_node": "MAUJPUR-BABARPUR",
+    "cost": 2.64
+  },
+  {
+    "from_node": "MAUJPUR-BABARPUR",
+    "to_node": "GOKULPURI",
+    "cost": 1.97
+  },
+  {
+    "from_node": "GOKULPURI",
+    "to_node": "JOHRI ENCLAVE",
+    "cost": 2.12
+  },
+  {
+    "from_node": "JOHRI ENCLAVE",
+    "to_node": "SHIV VIHAR",
+    "cost": 2.05
+  },
+  {
+    "from_node": "JANAKPURI WEST",
+    "to_node": "DABRI MOR - JANAKPURI SOUTH",
+    "cost": 2.12
+  },
+  {
+    "from_node": "DABRI MOR - JANAKPURI SOUTH",
+    "to_node": "DASHRATHPURI",
+    "cost": 3.45
+  },
+  {
+    "from_node": "DASHRATHPURI",
+    "to_node": "PALAM",
+    "cost": 4.1
+  },
+  {
+    "from_node": "PALAM",
+    "to_node": "SADAR BAZAR CANTONMENT",
+    "cost": 3.75
+  },
+  {
+    "from_node": "SADAR BAZAR CANTONMENT",
+    "to_node": "TERMINAL 1-IGI AIRPORT",
+    "cost": 2.85
+  },
+  {
+    "from_node": "TERMINAL 1-IGI AIRPORT",
+    "to_node": "SHANKAR VIHAR",
+    "cost": 1.6
+  },
+  {
+    "from_node": "SHANKAR VIHAR",
+    "to_node": "VASANT VIHAR",
+    "cost": 2.5
+  },
+  {
+    "from_node": "VASANT VIHAR",
+    "to_node": "MUNIRKA",
+    "cost": 2.2
+  },
+  {
+    "from_node": "MUNIRKA",
+    "to_node": "R.K.PURAM",
+    "cost": 2
+  },
+  {
+    "from_node": "R.K.PURAM",
+    "to_node": "IIT",
+    "cost": 1.5
+  },
+  {
+    "from_node": "IIT",
+    "to_node": "HAUZ KHAS",
+    "cost": 1.25
+  },
+  {
+    "from_node": "HAUZ KHAS",
+    "to_node": "PANCHSHEEL PARK",
+    "cost": 1.3
+  },
+  {
+    "from_node": "PANCHSHEEL PARK",
+    "to_node": "CHIRAG DELHI",
+    "cost": 1.1
+  },
+  {
+    "from_node": "CHIRAG DELHI",
+    "to_node": "GREATER KAILASH",
+    "cost": 1.15
+  },
+  {
+    "from_node": "GREATER KAILASH",
+    "to_node": "NEHRU ENCLAVE",
+    "cost": 0.95
+  },
+  {
+    "from_node": "NEHRU ENCLAVE",
+    "to_node": "KALKAJI MANDIR",
+    "cost": 1
+  },
+  {
+    "from_node": "KALKAJI MANDIR",
+    "to_node": "OKHLA NSIC",
+    "cost": 1.5
+  },
+  {
+    "from_node": "OKHLA NSIC",
+    "to_node": "SUKHDEV VIHAR",
+    "cost": 1.1
+  },
+  {
+    "from_node": "SUKHDEV VIHAR",
+    "to_node": "JAMIA MILLIA ISLAMIA",
+    "cost": 1.25
+  },
+  {
+    "from_node": "JAMIA MILLIA ISLAMIA",
+    "to_node": "OKHLA VIHAR",
+    "cost": 1.2
+  },
+  {
+    "from_node": "OKHLA VIHAR",
+    "to_node": "JASOLA VIHAR SHAHEEN BAGH",
+    "cost": 1.8
+  },
+  {
+    "from_node": "JASOLA VIHAR SHAHEEN BAGH",
+    "to_node": "KALINDI KUNJ",
+    "cost": 1.5
+  },
+  {
+    "from_node": "KALINDI KUNJ",
+    "to_node": "OKHLA BIRD SANCTUARY",
+    "cost": 1.2
+  },
+  {
+    "from_node": "OKHLA BIRD SANCTUARY",
+    "to_node": "BOTANICAL GARDEN",
+    "cost": 1.2
+  },
+  {
+    "from_node": "DWARKA",
+    "to_node": "NANGLI",
+    "cost": 1.24
+  },
+  {
+    "from_node": "NANGLI",
+    "to_node": "NAJAFGARH",
+    "cost": 1.38
+  },
+  {
+    "from_node": "NAJAFGARH",
+    "to_node": "DHANSA BUS STAND",
+    "cost": 2.36
+  },
+  {
+    "from_node": "NEW DELHI (Yellow & Airport Line)",
+    "to_node": "SHIVAJI STADIUM",
+    "cost": 1.5
+  },
+  {
+    "from_node": "SHIVAJI STADIUM",
+    "to_node": "DHAULA KUAN",
+    "cost": 2
+  },
+  {
+    "from_node": "DHAULA KUAN",
+    "to_node": "DELHI AEROCITY",
+    "cost": 3.5
+  },
+  {
+    "from_node": "DELHI AEROCITY",
+    "to_node": "AIRPORT (T-3)",
+    "cost": 2.5
+  },
+  {
+    "from_node": "AIRPORT (T-3)",
+    "to_node": "DWARKA SECTOR - 21",
+    "cost": 10
+  },
+  {
+    "from_node": "DWARKA SECTOR - 21",
+    "to_node": "YASHOBHOOMI DWARKA SECTOR - 25",
+    "cost": 5.4
+  },
+  {
+    "from_node": "SECTOR 55-56",
+    "to_node": "SECTOR-54 CHOWK",
+    "cost": 1.05
+  },
+  {
+    "from_node": "SECTOR-54 CHOWK",
+    "to_node": "SECTOR-53-54",
+    "cost": 1.09
+  },
+  {
+    "from_node": "SECTOR-53-54",
+    "to_node": "SECTOR-42-43",
+    "cost": 1.3
+  },
+  {
+    "from_node": "SECTOR-42-43",
+    "to_node": "PHASE-1",
+    "cost": 1.15
+  },
+  {
+    "from_node": "PHASE-1",
+    "to_node": "SIKANDERPUR",
+    "cost": 1.16
+  },
+  {
+    "from_node": "SIKANDERPUR",
+    "to_node": "PHASE-2",
+    "cost": 1.05
+  },
+  {
+    "from_node": "PHASE-2",
+    "to_node": "BELVEDERE TOWERS",
+    "cost": 1.1
+  },
+  {
+    "from_node": "BELVEDERE TOWERS",
+    "to_node": "CYBER CITY",
+    "cost": 1.4
+  },
+  {
+    "from_node": "CYBER CITY",
+    "to_node": "MOULSARI AVENUE",
+    "cost": 1.2
+  },
+  {
+    "from_node": "MOULSARI AVENUE",
+    "to_node": "PHASE-3",
+    "cost": 1.23
+  },
+  {
+    "from_node": "DWARKA SECTOR 21",
+    "to_node": "DWARKA SECTOR 8",
+    "cost": 1.5
+  },
+  {
+    "from_node": "DWARKA SECTOR 8",
+    "to_node": "DWARKA SECTOR 9",
+    "cost": 1.2
+  },
+  {
+    "from_node": "DWARKA SECTOR 9",
+    "to_node": "DWARKA SECTOR 10",
+    "cost": 1.3
+  },
+  {
+    "from_node": "DWARKA SECTOR 10",
+    "to_node": "DWARKA SECTOR 11",
+    "cost": 1.1
+  },
+  {
+    "from_node": "DWARKA SECTOR 11",
+    "to_node": "DWARKA SECTOR 12",
+    "cost": 1
+  },
+  {
+    "from_node": "DWARKA SECTOR 12",
+    "to_node": "DWARKA SECTOR 13",
+    "cost": 1.2
+  },
+  {
+    "from_node": "DWARKA SECTOR 13",
+    "to_node": "DWARKA SECTOR 14",
+    "cost": 1.1
+  },
+  {
+    "from_node": "DWARKA SECTOR 14",
+    "to_node": "DWARKA",
+    "cost": 1.4
+  },
+  {
+    "from_node": "DWARKA",
+    "to_node": "DWARKA MOR",
+    "cost": 1.5
+  },
+  {
+    "from_node": "DWARKA MOR",
+    "to_node": "NAWADA",
+    "cost": 1.5
+  },
+  {
+    "from_node": "NAWADA",
+    "to_node": "UTTAM NAGAR WEST",
+    "cost": 2
+  },
+  {
+    "from_node": "UTTAM NAGAR WEST",
+    "to_node": "UTTAM NAGAR EAST",
+    "cost": 1.5
+  },
+  {
+    "from_node": "UTTAM NAGAR EAST",
+    "to_node": "JANAKPURI WEST",
+    "cost": 2.2
+  },
+  {
+    "from_node": "JANAKPURI WEST",
+    "to_node": "JANAKPURI EAST",
+    "cost": 1
+  },
+  {
+    "from_node": "JANAKPURI EAST",
+    "to_node": "TILAK NAGAR",
+    "cost": 1.3
+  },
+  {
+    "from_node": "TILAK NAGAR",
+    "to_node": "SUBHASH NAGAR",
+    "cost": 1.2
+  },
+  {
+    "from_node": "SUBHASH NAGAR",
+    "to_node": "TAGORE GARDEN",
+    "cost": 1
+  },
+  {
+    "from_node": "TAGORE GARDEN",
+    "to_node": "RAJOURI GARDEN",
+    "cost": 1.5
+  },
+  {
+    "from_node": "RAJOURI GARDEN",
+    "to_node": "RAMESH NAGAR",
+    "cost": 1
+  },
+  {
+    "from_node": "RAMESH NAGAR",
+    "to_node": "MOTI NAGAR",
+    "cost": 1.3
+  },
+  {
+    "from_node": "MOTI NAGAR",
+    "to_node": "KIRTI NAGAR",
+    "cost": 1
+  },
+  {
+    "from_node": "KIRTI NAGAR",
+    "to_node": "SHADIPUR",
+    "cost": 1.1
+  },
+  {
+    "from_node": "SHADIPUR",
+    "to_node": "PATEL NAGAR",
+    "cost": 1.2
+  },
+  {
+    "from_node": "PATEL NAGAR",
+    "to_node": "RAJENDRA PLACE",
+    "cost": 1
+  },
+  {
+    "from_node": "RAJENDRA PLACE",
+    "to_node": "KAROL BAGH",
+    "cost": 1
+  },
+  {
+    "from_node": "KAROL BAGH",
+    "to_node": "JHANDEWALAN",
+    "cost": 1.2
+  },
+  {
+    "from_node": "JHANDEWALAN",
+    "to_node": "RAMAKRISHNA ASHRAM MARG",
+    "cost": 1.3
+  },
+  {
+    "from_node": "RAMAKRISHNA ASHRAM MARG",
+    "to_node": "RAIV CHOWK",
+    "cost": 1.5
+  },
+  {
+    "from_node": "RAIV CHOWK",
+    "to_node": "BARAKHAMBA ROAD",
+    "cost": 0.8
+  },
+  {
+    "from_node": "BARAKHAMBA ROAD",
+    "to_node": "MANDI HOUSE",
+    "cost": 1
+  },
+  {
+    "from_node": "MANDI HOUSE",
+    "to_node": "SUPREME COURT",
+    "cost": 0.7
+  },
+  {
+    "from_node": "SUPREME COURT",
+    "to_node": "INDRAPRASTHA",
+    "cost": 1.1
+  },
+  {
+    "from_node": "INDRAPRASTHA",
+    "to_node": "YAMUNA BANK",
+    "cost": 1.5
+  },
+  {
+    "from_node": "YAMUNA BANK",
+    "to_node": "AKSHARDHAM",
+    "cost": 1.5
+  },
+  {
+    "from_node": "AKSHARDHAM",
+    "to_node": "MAYUR VIHAR - I",
+    "cost": 2
+  },
+  {
+    "from_node": "MAYUR VIHAR - I",
+    "to_node": "MAYUR VIHAR EXTENSION",
+    "cost": 1.5
+  },
+  {
+    "from_node": "MAYUR VIHAR EXTENSION",
+    "to_node": "NEW ASHOK NAGAR",
+    "cost": 1.3
+  },
+  {
+    "from_node": "NEW ASHOK NAGAR",
+    "to_node": "NOIDA SECTOR-15",
+    "cost": 2
+  },
+  {
+    "from_node": "NOIDA SECTOR-15",
+    "to_node": "NOIDA SECTOR-16",
+    "cost": 1
+  },
+  {
+    "from_node": "NOIDA SECTOR-16",
+    "to_node": "NOIDA SECTOR-18",
+    "cost": 1.5
+  },
+  {
+    "from_node": "NOIDA SECTOR-18",
+    "to_node": "BOTANICAL GARDEN",
+    "cost": 1.5
+  },
+  {
+    "from_node": "BOTANICAL GARDEN",
+    "to_node": "GOLF COURSE",
+    "cost": 1.3
+  },
+  {
+    "from_node": "GOLF COURSE",
+    "to_node": "NOIDA CITY CENTRE",
+    "cost": 1.4
+  },
+  {
+    "from_node": "NOIDA CITY CENTRE",
+    "to_node": "SECTOR - 34 NOIDA",
+    "cost": 1.5
+  },
+  {
+    "from_node": "SECTOR - 34 NOIDA",
+    "to_node": "SECTOR - 52 NOIDA",
+    "cost": 1
+  },
+  {
+    "from_node": "SECTOR - 52 NOIDA",
+    "to_node": "SECTOR - 61 NOIDA",
+    "cost": 1
+  },
+  {
+    "from_node": "SECTOR - 61 NOIDA",
+    "to_node": "SECTOR - 59 NOIDA",
+    "cost": 0.9
+  },
+  {
+    "from_node": "SECTOR - 59 NOIDA",
+    "to_node": "SECTOR - 62 NOIDA",
+    "cost": 1.1
+  },
+  {
+    "from_node": "SECTOR - 62 NOIDA",
+    "to_node": "NOIDA ELECTRONIC CITY",
+    "cost": 1.3
+  }
+]
