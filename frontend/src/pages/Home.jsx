@@ -40,6 +40,7 @@ function Home() {
 
         // Assuming the API returns a fare value, set it to the state
         setFare(response.data.fare);
+        console.log(response);
         
         alert(`Fare from ${source.value} to ${destination.value} is ${response.data.fare}`);
       } catch (error) {
