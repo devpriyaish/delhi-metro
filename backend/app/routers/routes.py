@@ -6,11 +6,6 @@ from app.services.dijkstra_service import DijkstraService
 router = APIRouter()
 dijkstra_service = DijkstraService()
 
-@router.post("/add-edges/")
-def add_edges(edges: list[EdgeInput]):
-    dijkstra_service.add_edges(edges)
-    return {"message": f"{len(edges)} edges added!."}
-
 @router.post("/shortest-path")
 def get_shortest_path(request: PathRequest):
     distance, path = dijkstra_service.get_shortest_path(request.source, request.destination)
