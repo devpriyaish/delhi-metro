@@ -27,6 +27,6 @@ def get_shortest_path(request: PathRequest):
         fare = 50
     else:
         fare = 60    
-    time_in_minutes = str("10")
+    time_in_minutes = str(int(distance * 2)) + " minutes"
 
     return PathResponse(path=path, fare=fare, time=time_in_minutes)

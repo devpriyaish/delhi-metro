@@ -11,27 +11,12 @@ function App() {
       <div className="top-bar">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/about" className="nav-link">About</Link>
-        <MembershipButton />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/membership" element={<Membership />} />
       </Routes>
     </Router>
-  );
-}
-
-function MembershipButton() {
-  const navigate = useNavigate();
-
-  return (
-    <button
-      onClick={() => navigate("/membership")}
-      className="member-button"
-    >
-      Become a Member
-    </button>
   );
 }
 
