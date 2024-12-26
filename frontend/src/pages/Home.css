@@ -1,4 +1,4 @@
-/* Centering the Select components and button container */
+/* General styles for the fare calculator */
 .fare-calculator {
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   max-width: 400px; /* Limits the width, adjust as needed */
 }
 
-/* Optional: Styling the button */
+/* Styling the button */
 .calculate-button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -39,10 +39,33 @@
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Ensuring dropdown options are styled */
 .select-dropdown .react-select__menu-list {
   background-color: white; /* Ensure the background of the options is white */
 }
 
 .select-dropdown .react-select__option:hover {
   background-color: lightgrey; /* Changes the hover color of dropdown options */
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .fare-calculator {
+    padding: 15px; /* Reduce padding for smaller screens */
+    gap: 15px; /* Reduce space between elements */
+  }
+
+  .select-dropdown {
+    max-width: 100%; /* Allow the dropdown to take the full width */
+  }
+
+  .calculate-button {
+    padding: 0.5em 1em; /* Adjust button padding for smaller screens */
+    font-size: 0.9em; /* Slightly reduce font size for buttons */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Reduce the heading font size for better fit */
+    text-align: center; /* Center-align the heading on mobile */
+  }
 }
