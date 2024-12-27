@@ -111,6 +111,29 @@
   top: 20px;
   left: 9px; /* Align with the center of the node */
   width: 2px;
-  height: 30px; /* Line height between nodes */
+  height: 14px; /* Line height between nodes */
   background-color: #000; /* Line color */
+}
+
+.fare-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 10px auto;
+  background-color: #646cff24;
+}
+
+.fare-item {
+  font-size: 18px;
+  color: #333;
+  margin: 0 10px;
+  font-family: Arial, sans-serif;
+}
+
+.fare-item strong {
+  font-weight: bold;
 }
