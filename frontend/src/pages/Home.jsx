@@ -156,7 +156,7 @@ function Home() {
 
   return (
     <Layout>
-      <h1>Fare Calculator</h1>
+      <h1>Plan Travell</h1>
       <div className="fare-calculator">
         <Select
           placeholder="Select Source"
@@ -192,9 +192,10 @@ function Home() {
             )}
           </div>
           {path && path.length > 0 && (
-            <>
+            <div className="path-container">
+              <h2 className="path-heading">Shortest Path</h2>
               {renderGraph()}
-            </>
+            </div>
           )}
         </div>
       )}
