@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link, useNavigate } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Membership from "./pages/Membership";
 import "./App.css";
 
 function App() {

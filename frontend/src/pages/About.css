@@ -65,8 +65,8 @@
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
-  gap: 20px; /* Space between the columns */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 /* Header Section */
@@ -76,7 +76,7 @@
   background-color: #f7f7f7;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  grid-column: span 2; /* Makes the header span across both columns */
+  grid-column: span 2;
 }
 
 .about-header h1 {
@@ -92,7 +92,7 @@
 
 /* App Info Section */
 .about-info {
-  grid-column: span 2; /* Makes this section span across both columns */
+  grid-column: span 2;
 }
 
 .about-info p {
@@ -103,16 +103,16 @@
 /* Prerequisites Section */
 .about-prerequisites {
   display: flex;
-  flex-direction: column; /* Stacks the items vertically */
-  justify-content: center; /* Center aligns the items horizontally */
-  align-items: center; /* Center aligns the items vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-prerequisites .prerequisites-list {
   display: flex;
-  flex-direction: column; /* Stacks the items vertically */
+  flex-direction: column;
   margin-top: 20px;
-  align-items: center; /* Center align the list items */
+  align-items: center;
 }
 
 .about-prerequisites .prerequisites-item {
@@ -122,7 +122,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-size: 1.1rem;
   color: #333;
-  margin-bottom: 10px; /* Adds space between items */
+  margin-bottom: 10px;
   transition: transform 0.3s;
 }
 
@@ -133,16 +133,16 @@
 /* Technologies Section */
 .about-technologies {
   display: flex;
-  flex-direction: column; /* Stacks the items vertically */
-  justify-content: center; /* Center aligns the items horizontally */
-  align-items: center; /* Center aligns the items vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-technologies .tech-list {
   display: flex;
-  flex-direction: column; /* Stacks the items vertically */
+  flex-direction: column;
   margin-top: 20px;
-  align-items: center; /* Center align the list items */
+  align-items: center;
 }
 
 .about-technologies .tech-item {
@@ -152,7 +152,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-size: 1.1rem;
   color: #333;
-  margin-bottom: 10px; /* Adds space between items */
+  margin-bottom: 10px;
   transition: transform 0.3s;
 }
 
@@ -162,9 +162,8 @@
 
 /* Contact Section */
 .about-contact {
-  /* margin-top: 40px; */
   text-align: center;
-  grid-column: span 2; /* Makes this section span across both columns */
+  grid-column: span 2;
 }
 
 .social-icons {
@@ -181,15 +180,15 @@
 }
 
 .social-icons a:hover {
-  color: #646cff; /* Change color on hover */
+  color: #646cff;
 }
 
 /* Font Awesome Icon Sizes */
 .social-icons .fa {
-  font-size: 2.5rem; /* Adjust icon size */
+  font-size: 2.5rem;
   transition: transform 0.3s ease-in-out;
 }
 
 .social-icons a:hover .fa {
-  transform: scale(1.1); /* Slightly enlarge icon on hover */
+  transform: scale(1.1);
 }

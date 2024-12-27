@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import "./About.css"; // Assuming you're keeping About-specific CSS
+import "./About.css";
 
 function About() {
   return (
@@ -47,13 +47,13 @@ function About() {
         {/* Contact Section */}
         <section className="about-contact">
           <div className="social-icons">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/dpshivani/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/devpriyaish" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@DevByteswithDevpriya-j7h" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-youtube"></i>
             </a>
           </div>

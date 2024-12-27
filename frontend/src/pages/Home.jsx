@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import Layout from "../components/Layout";
-import "./Home.css"; // Ensure this includes styles for the graph
+import "./Home.css";
 import options from "../assets/data/stations.json";
 import axios from "axios";
 
@@ -72,11 +72,11 @@ function Home() {
   
       if (stationData) {
         if (stationData.line.length > 1) {
-          return "#000"; // Default color for the outer node (black for multiple lines)
+          return "#000";
         }
         return colorMap[stationData.line[0]];
       }
-      return "#lalala"; // Default color if no line is found
+      return "#lalala";
     };
   
     const hasMultipleLines = (station) => {
