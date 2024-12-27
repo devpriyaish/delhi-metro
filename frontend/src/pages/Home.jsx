@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import Layout from "../components/Layout";
-import "./Home.css";
+import "./Home.css"; // Ensure this includes styles for the graph
 import options from "../assets/data/stations.json";
-import axios from 'axios'; // Import axios
+import axios from "axios";
 
 const generateLabelWithDots = (lines) => {
   const colorMap = {
@@ -28,59 +28,70 @@ function Home() {
   const [source, setSource] = useState(null);
   const [destination, setDestination] = useState(null);
   const [fare, setFare] = useState(null);
+  const [path, setPath] = useState([]);
+  const [time, setTime] = useState("");
 
   const handleCalculateFare = async () => {
     if (source && destination) {
       try {
-        // Make API call to the backend to calculate the fare
-        const response = await axios.post('http://localhost:8000/api/shortest-path', {
+        const response = await axios.post("http://localhost:8000/api/shortest-path", {
           source: source.value,
           destination: destination.value,
         });
 
-        // Assuming the API returns a fare value, set it to the state
         setFare(response.data.fare);
+        setPath(response.data.path);
+        setTime(response.data.time);
         console.log(response.data);
-        
-        alert(`Fare from ${source.value} to ${destination.value} is ${response.data.fare}`);
       } catch (error) {
-        console.error('Error fetching fare data:', error);
-        alert('There was an error calculating the fare. Please try again.');
+        console.error("Error fetching fare data:", error);
+        alert("There was an error calculating the fare. Please try again.");
       }
     } else {
       alert("Please select both source and destination.");
     }
   };
 
+  const renderGraph = () => (
+    <div className="vertical-graph">
+      {path.map((station, index) => (
+        <div key={index} className="node-container">
+          <div className="node"></div>
+          <div className="station-name">{station}</div>
+        </div>
+      ))}
+    </div>
+  );
+
   const customStyles = {
     option: (provided, state) => ({
       ...provided,
       backgroundColor: state.isSelected
-        ? '#1a1a1a'
+        ? "#1a1a1a"
         : state.isFocused
-        ? 'lightgrey'
+        ? "lightgrey"
         : provided.backgroundColor,
-      color: state.isSelected ? 'white' : '#1a1a1a',
+      color: state.isSelected ? "white" : "#1a1a1a",
       padding: 10,
-      textAlign: 'left',
+      textAlign: "left",
     }),
     control: (provided) => ({
       ...provided,
-      width: '100%',
-      maxWidth: '400px',
-      textAlign: 'left',
+      width: "100%",
+      maxWidth: "400px",
+      textAlign: "left",
     }),
     placeholder: (provided) => ({
       ...provided,
-      textAlign: 'left',
+      textAlign: "left",
     }),
     singleValue: (provided) => ({
       ...provided,
-      textAlign: 'left',
+      textAlign: "left",
     }),
     menu: (provided) => ({
       ...provided,
-      maxWidth: '400px',
+      maxWidth: "400px",
     }),
   };
 
@@ -113,6 +124,19 @@ function Home() {
           Calculate Fare
         </button>
       </div>
+
+      {fare && (
+        <div className="fare-details">
+          <p><strong>Fare:</strong> ₹{fare}</p>
+          {time && <p><strong>Time:</strong> {time}</p>}
+          {path && path.length > 0 && (
+            <>
+              <h2>Shortest Path</h2>
+              {renderGraph()}
+            </>
+          )}
+        </div>
+      )}
     </Layout>
   );
 }
