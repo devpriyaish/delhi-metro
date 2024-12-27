@@ -75,7 +75,7 @@
   flex-direction: column;
   align-items: left;
   margin-top: 20px;
-  margin-left: 500px;
+  /* margin-left: 500px; */
   position: relative;
 }
 
@@ -136,4 +136,11 @@
 
 .fare-item strong {
   font-weight: bold;
+}
+
+.path-container {
+  /* border: 1px solid #ccc; */
+  max-width: 400px;
+  margin: 0 auto;
+  /* padding: 0 100px; */
 }
