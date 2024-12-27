@@ -52,16 +52,70 @@ function Home() {
     }
   };
 
-  const renderGraph = () => (
-    <div className="vertical-graph">
-      {path.map((station, index) => (
-        <div key={index} className="node-container">
-          <div className="node"></div>
-          <div className="station-name">{station}</div>
-        </div>
-      ))}
-    </div>
-  );
+  const renderGraph = () => {
+    const getNodeColor = (station) => {
+      const stationData = options.find((s) => s.value === station);
+      const colorMap = {
+        Red: "#f00",
+        Yellow: "#ff0",
+        Blue: "#00f",
+        Green: "#0f0",
+        Violet: "#8a2be2",
+        Pink: "#ffc0cb",
+        Magenta: "#f0f",
+        Grey: "#808080",
+        Orange: "#ffa500",
+        Silver: "#c0c0c0",
+      };
+  
+      if (stationData) {
+        if (stationData.line.length > 1) {
+          return "#000"; // Default color for the outer node (black for multiple lines)
+        }
+        return colorMap[stationData.line[0]];
+      }
+      return "#lalala"; // Default color if no line is found
+    };
+  
+    const hasMultipleLines = (station) => {
+      const stationData = options.find((s) => s.value === station);
+      return stationData && stationData.line.length > 1;
+    };
+  
+    return (
+      <div className="vertical-graph">
+        {path.map((station, index) => (
+          <div key={index} className="node-container">
+            <div
+              className="node"
+              style={{
+                backgroundColor: getNodeColor(station),
+                position: "relative",
+              }}
+            >
+              {hasMultipleLines(station) && (
+                <div
+                  className="inner-dot"
+                  style={{
+                    width: "8px",
+                    height: "8px",
+                    borderRadius: "50%",
+                    backgroundColor: "#808080", // Grey color
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                  }}
+                ></div>
+              )}
+            </div>
+            <div className="station-name">{station}</div>
+          </div>
+        ))}
+      </div>
+    );
+  };
+  
 
   const customStyles = {
     option: (provided, state) => ({
@@ -127,16 +181,24 @@ function Home() {
 
       {fare && (
         <div className="fare-details">
-          <p><strong>Fare:</strong> ₹{fare}</p>
-          {time && <p><strong>Time:</strong> {time}</p>}
+          <div className="fare-time-container">
+            <p className="fare-item">
+              <strong>Fare:</strong> ₹{fare}
+            </p>
+            {time && (
+              <p className="fare-item">
+                <strong>Time:</strong> {time}
+              </p>
+            )}
+          </div>
           {path && path.length > 0 && (
             <>
-              <h2>Shortest Path</h2>
               {renderGraph()}
             </>
           )}
         </div>
       )}
+
     </Layout>
   );
 }
