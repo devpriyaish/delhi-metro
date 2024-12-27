@@ -69,3 +69,48 @@
     text-align: center; /* Center-align the heading on mobile */
   }
 }
+
+.vertical-graph {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 20px;
+  margin-left: 500px;
+  position: relative;
+}
+
+.node-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.node {
+  width: 20px;
+  height: 20px;
+  background-color: #1a73e8; /* Customize node color */
+  border-radius: 50%;
+  border: 2px solid #000; /* Optional: add a border */
+  margin-right: 10px;
+}
+
+.station-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333; /* Customize text color */
+}
+
+.node-container:not(:last-child) .node {
+  position: relative;
+}
+
+.node-container:not(:last-child) .node::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 9px; /* Align with the center of the node */
+  width: 2px;
+  height: 30px; /* Line height between nodes */
+  background-color: #000; /* Line color */
+}
