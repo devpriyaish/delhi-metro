@@ -10,6 +10,7 @@ class DijkstraService:
     def add_edges(self, edges):
         for edge in edges:
             self.dijkstra.add_edge(edge['from_node'], edge['to_node'], edge['cost'])
+            self.dijkstra.add_edge(edge['to_node'], edge['from_node'], edge['cost'])
 
     def load_edges_from_file(self):
         edges_file_path = os.path.join('data', 'edges.json')
