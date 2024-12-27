@@ -4,16 +4,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 500px; /* Adjust the width as needed */
-  margin: 0 auto; /* Centers the container horizontally */
+  max-width: 500px;
+  margin: 0 auto;
   padding: 20px;
-  gap: 20px; /* Space between elements */
+  gap: 20px;
 }
 
 /* To control the width of the Select dropdowns */
 .select-dropdown {
-  width: 100%; /* Makes Select take full width of its parent container */
-  max-width: 400px; /* Limits the width, adjust as needed */
+  width: 100%; 
+  max-width: 400px;
 }
 
 /* Styling the button */
@@ -41,32 +41,31 @@
 
 /* Ensuring dropdown options are styled */
 .select-dropdown .react-select__menu-list {
-  background-color: white; /* Ensure the background of the options is white */
+  background-color: white;
 }
 
 .select-dropdown .react-select__option:hover {
-  background-color: lightgrey; /* Changes the hover color of dropdown options */
+  background-color: lightgrey;
 }
 
-/* Responsive styles for mobile devices */
 @media (max-width: 600px) {
   .fare-calculator {
-    padding: 15px; /* Reduce padding for smaller screens */
-    gap: 15px; /* Reduce space between elements */
+    padding: 15px;
+    gap: 15px;
   }
 
   .select-dropdown {
-    max-width: 100%; /* Allow the dropdown to take the full width */
+    max-width: 100%;
   }
 
   .calculate-button {
-    padding: 0.5em 1em; /* Adjust button padding for smaller screens */
-    font-size: 0.9em; /* Slightly reduce font size for buttons */
+    padding: 0.5em 1em;
+    font-size: 0.9em;
   }
 
   h1 {
-    font-size: 1.5em; /* Reduce the heading font size for better fit */
-    text-align: center; /* Center-align the heading on mobile */
+    font-size: 1.5em;
+    text-align: center;
   }
 }
 
@@ -75,7 +74,6 @@
   flex-direction: column;
   align-items: left;
   margin-top: 20px;
-  /* margin-left: 500px; */
   position: relative;
 }
 
@@ -89,16 +87,16 @@
 .node {
   width: 20px;
   height: 20px;
-  background-color: #1a73e8; /* Customize node color */
+  background-color: #1a73e8;
   border-radius: 50%;
-  border: 2px solid #000; /* Optional: add a border */
+  border: 2px solid #000;
   margin-right: 10px;
 }
 
 .station-name {
   font-size: 14px;
   font-weight: bold;
-  color: #333; /* Customize text color */
+  color: #333;
 }
 
 .node-container:not(:last-child) .node {
@@ -109,10 +107,10 @@
   content: "";
   position: absolute;
   top: 20px;
-  left: 9px; /* Align with the center of the node */
+  left: 9px;
   width: 2px;
-  height: 14px; /* Line height between nodes */
-  background-color: #000; /* Line color */
+  height: 14px;
+  background-color: #000;
 }
 
 .fare-time-container {
@@ -139,8 +137,6 @@
 }
 
 .path-container {
-  /* border: 1px solid #ccc; */
   max-width: 400px;
   margin: 0 auto;
-  /* padding: 0 100px; */
 }
