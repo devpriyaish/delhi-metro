@@ -34,15 +34,17 @@ function Home() {
   const handleCalculateFare = async () => {
     if (source && destination) {
       try {
+        console.log(source.value, destination.value);
         const response = await axios.post("http://localhost:8000/api/shortest-path", {
           source: source.value,
           destination: destination.value,
         });
+        console.log(response.data);
 
         setFare(response.data.fare);
         setPath(response.data.path);
         setTime(response.data.time);
-        console.log(response.data);
+        
       } catch (error) {
         console.error("Error fetching fare data:", error);
         alert("There was an error calculating the fare. Please try again.");
@@ -156,7 +158,7 @@ function Home() {
 
   return (
     <Layout>
-      <h1>Plan Travell</h1>
+      <h1>Delhi Metro</h1>
       <div className="fare-calculator">
         <Select
           placeholder="Select Source"

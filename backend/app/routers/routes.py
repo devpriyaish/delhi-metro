@@ -11,7 +11,7 @@ def get_shortest_path(request: PathRequest):
     distance, path = dijkstra_service.get_shortest_path(request.source, request.destination)
     
     if distance == float('inf'):
-        raise HTTPException(status_code=404, detail="No path found.")
+        raise HTTPException(status_code=404, detail="No route found.")
     
     if distance < 2:
         fare = 10
